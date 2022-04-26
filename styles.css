@@ -1,10 +1,16 @@
 body { font-family: 'roboto', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 header {
   background-color: #1f2937;
   font-size: 18px;
   color: #e5e7eb;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 50vh;
+  
 }
 
  header h1 {
@@ -17,6 +23,12 @@ header h2 {
   font-size: 48px;
   font-weight: extra-bold;
   color: #F9FAF8;
+  margin-bottom: 0px;
+  
+}
+
+header p {
+  padding-top: 0px;
 }
 
 header ul {
@@ -36,23 +48,36 @@ header a{
 
 .icon {
   background-color: #3882F6;
+  max-width: 100px;
 }
 
 #quote-section{
   background-color: #e5e7eb;
   font-style: italic;
-  font-weight: light;
   color: #1F2937;
 }
 
 #container {
   background-color: #3882F6;
   color: #F9FAF8;
-  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 25px;
+  margin: 30px;
+  border-radius: 5px; 
 }
 
 #container h3 {
   font-weight: bold;
+}
+
+#container a  {background-color: #F9FAF8;
+  padding: 10px 25px;
+  border-radius: 5px;
+  color: #3882F6;
+
+
 }
 
 #signupbottom {
@@ -64,3 +89,87 @@ footer {
   color: #e5e7eb;
 }
 
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width:100%;
+  height: 70px;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar a {
+  padding: 10px 20px;
+  margin: 0 5px;
+}
+
+#main-img{
+  max-width: 25%;
+  margin: 25px;
+}
+
+#hero {
+  display: flex;
+  
+}
+
+
+
+section a {
+  background-color: #3882F6;
+  padding: 10px 25px;
+  border-radius: 5px;
+}
+
+#section2 h2 {
+  display: flex;
+  justify-content: center;
+}
+
+#icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+section div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+div .icon {
+  min-width: 50px;
+  
+}
+
+#quote-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px 30px;
+  align-items: flex-end;
+
+  
+}
+
+
+#quote-section p {font-weight: bold;
+ 
+
+  align-items: flex-end;
+}
+
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 30px;
+}
